@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "scripts": {
+    "lint": "eslint --ext ts src",
+    "lint:fix": "eslint --fix --ext ts,js src"
+  },
+  "babel": {
+    "presets": [
+      "@babel/typescript"
+    ]
+  },
+  "dependencies": {
+    "ordix-eslint-and-prettier-config": "^1.0.3"
+  }
+}
